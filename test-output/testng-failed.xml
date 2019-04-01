@@ -6,4 +6,13 @@
       <class name="tests.Test1"/>
     </classes>
   </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="tests.Test1">
+        <methods>
+          <include name="get_Asia_Headlenes"/>
+        </methods>
+      </class> <!-- tests.Test1 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
